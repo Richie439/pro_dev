@@ -71,14 +71,14 @@ if (isset($_GET['matricule'])) {
       <div class="input-control col-md-6">
         <div class="">
           <label for="inputNom4" class="form-label">Nom</label>
-          <input type="text" value="<?= $check['nom'] ?? null?>" name="nom" class="form-control border border-3 border-secondary" id="Nom" placeholder="nom" style="background-color:rgba(227, 215, 206, 1)">
+          <input type="text" value="<?= $check['nom'] ?? null?>" name="nom" class="form-control border border-3 border-secondary" id="nom" placeholder="nom" style="background-color:rgba(227, 215, 206, 1)">
           <span id="erreur"></span>
         </div>
       </div>
       <div class="input-control col-md-6 mb-2">
         <div class="">
           <label for="inputPrenom4" class="form-label">Prenom</label>
-          <input type="Prenom" value="<?= $check['prenom'] ?? null?>" name="prenom" class="form-control border border-3 border-secondary" id="Prenom" placeholder="Prenom" style="background-color:rgba(227, 215, 206, 1)">
+          <input type="Prenom" value="<?= $check['prenom'] ?? null?>" name="prenom" class="form-control border border-3 border-secondary" id="prenom" placeholder="prenom" style="background-color:rgba(227, 215, 206, 1)">
           <span id="erreur1"></span>
         </div>
       </div>
@@ -93,7 +93,8 @@ if (isset($_GET['matricule'])) {
         <center><button type="submit" name="submit" class="col- btn-lg text-center mb-4 mt-5" style="background-color:rgba(174, 115, 74, 1)">Modifier</button></center>
     </form><br>
   </div>
-  <script src=""></script>
+  <script src="js/modifi.js"></script>
+
 </body>
 
 </html>

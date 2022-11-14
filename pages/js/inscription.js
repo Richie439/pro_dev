@@ -32,7 +32,7 @@ submit.addEventListener("submit", function (inscription) {
     let Email = document.getElementById("Email");
     let mailformat = /^\w+([.-]?\w+)@\w+([.-]?\w+)(.\w{2,3})+$/;
     if (Email.value.trim() == "") {
-        let erreur = document.getElementById("erreur2");
+        let erreur2 = document.getElementById("erreur2");
         erreur2.innerHTML = "champ obligatoire";
         setTimeout(function(){
             erreur2.innerHTML = "";
